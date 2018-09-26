@@ -2,8 +2,9 @@ package har
 
 import (
 	"encoding/json"
-	"github.com/iyuuya/go-har/internal/types"
 	"io/ioutil"
+
+	"github.com/iyuuya/go-har/internal/types"
 )
 
 func LoadHARFromFile(fileName string) (*types.HAR, error) {
